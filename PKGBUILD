@@ -14,12 +14,12 @@ ros_makedepends=(ros-jade-rosbuild
   ros-jade-catkin)
 makedepends=('cmake' 'ros-build-tools'
   ${ros_makedepends[@]}
-  python2-pyqt4
-  qt4)
+  python2-pyqt5
+  )
 
 ros_depends=()
 depends=(${ros_depends[@]}
-  python2-pyqt4)
+  python2-pyqt5)
 
 # Git version (e.g. for debugging)
 # _tag=release/jade/python_qt_binding/${pkgver}-${_pkgver_patch}
